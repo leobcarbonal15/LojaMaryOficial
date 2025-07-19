@@ -53,7 +53,7 @@ class _LoginScreenState extends State<LoginScreen> {
       backgroundColor: Colors.brown.shade100,
       appBar: AppBar(
         title: const Text('Tela de Login', style: TextStyle(color: Colors.white)),
-        backgroundColor: Colors.brown.shade800,
+        backgroundColor: const Color.fromARGB(255, 0, 0, 0),
         centerTitle: true,
       ),
       body: Center(
@@ -79,7 +79,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   'Cadastre-se!',
                   style: TextStyle(
                     fontSize: 16,
-                    color: Colors.brown,
+                    color: Color.fromARGB(255, 0, 0, 0),
                     decoration: TextDecoration.underline,
                   ),
                 ),
@@ -118,7 +118,7 @@ class _LoginScreenState extends State<LoginScreen> {
         _registerUser(context);
       },
       style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.brown.shade800,
+        backgroundColor: const Color.fromARGB(255, 0, 0, 0),
         padding: const EdgeInsets.symmetric(horizontal: 60, vertical: 18),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       ),
